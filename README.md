@@ -1,7 +1,3 @@
-# Project Name
-
-A brief description of the project goes here.
-
 ## Installation
 
 1. Clone the repository to your local machine:
