@@ -6,12 +6,12 @@ A brief description of the project goes here.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ralle001/roams.git
    ```
 
 2. Navigate into the project folder:
    ```bash
-   cd <project-folder>
+   cd roams
    ```
 
 3. Install the required dependencies:
