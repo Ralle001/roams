@@ -14,19 +14,34 @@ A brief description of the project goes here.
    cd roams
    ```
 
-3. Install the required dependencies:
+3. Create a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   ```
+
+4. Activate the virtual environment (Linux/MAC):
+   ```bash
+   source .venv/bin/activate
+   ```
+
+4. Activate the virtual environment (Windows):
+   ```bash
+   .venv\Scripts\activate
+   ```
+
+5. Install the required dependencies:
    ```bash
    pip3 install -r requirements.txt
    ```
 
-4. Start the application:
+6. Start the application:
    ```bash
    python3 app.py
    ```
 
-5. Access the API at [http://localhost:5000](http://localhost:5000).
+7. Access the API at [http://localhost:5000](http://localhost:5000).
 
-6. Explore the Swagger documentation at [http://localhost:5000/swagger](http://localhost:5000/swagger).
+8. Explore the Swagger documentation at [http://localhost:5000/swagger](http://localhost:5000/swagger).
 
 ## Usage
 
