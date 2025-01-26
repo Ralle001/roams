@@ -36,9 +36,9 @@
    python3 app.py
    ```
 
-7. Access the API at [http://localhost:5000](http://localhost:5000).
+7. Access the API at [http://127.0.0.1:5000](http://localhost:5000).
 
-8. Explore the Swagger documentation at [http://localhost:5000/swagger](http://localhost:5000/swagger).
+8. Explore the Swagger documentation at [http://127.0.0.1:5000/swagger](http://localhost:5000/swagger).
 
 ## Usage
 
@@ -46,24 +46,24 @@ You can interact with the API using `curl`. Below are some examples:
 
 #### Create User
 ```bash
-curl -X POST http://localhost:5000/customers -H "Content-Type: application/json" -d "{\"name\":\"John Doe\",\"dni\":\"12345678Z\",\"email\":\"john@example.com\",\"requested_capital\":150000}"
+curl -X POST http://127.0.0.1:5000/customers -H "Content-Type: application/json" -d "{\"name\":\"John Doe\",\"dni\":\"12345678Z\",\"email\":\"john@example.com\",\"requested_capital\":150000}"
 ```
 
 #### Request User Data by DNI
 ```bash
-curl -X GET http://localhost:5000/customers/12345678Z
+curl -X GET http://127.0.0.1:5000/customers/12345678Z
 ```
 
 #### Delete User by DNI
 ```bash
-curl -X DELETE http://localhost:5000/customers/12345678Z
+curl -X DELETE http://127.0.0.1:5000/customers/12345678Z
 ```
 
 #### Update User Data by DNI
 ```bash
-curl -X PUT http://localhost:5000/customers/12345678Z -H "Content-Type: application/json" -d "{\"name\":\"John Smith\",\"email\":\"johnsmith@example.com\"}"
+curl -X PUT http://127.0.0.1:5000/customers/12345678Z -H "Content-Type: application/json" -d "{\"name\":\"John Smith\",\"email\":\"johnsmith@example.com\"}"
 ```
 
 #### Run Simulation by DNI
 ```bash
-curl -X POST http://localhost:5000/customers/12345678Z/simulate -H "Content-Type: application/json" -d "{\"apr\":4.5,\"term_years\":20}"
+curl -X POST http://127.0.0.1:5000/customers/12345678Z/simulate -H "Content-Type: application/json" -d "{\"apr\":4.5,\"term_years\":20}"
