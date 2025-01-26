@@ -19,12 +19,13 @@ A brief description of the project goes here.
    python3 -m venv .venv
    ```
 
-4. Activate the virtual environment (Linux/MAC):
+4. Activate the virtual environment:
+    Linux/Mac:
    ```bash
    source .venv/bin/activate
    ```
 
-4. Activate the virtual environment (Windows):
+    Windows:
    ```bash
    .venv\Scripts\activate
    ```
